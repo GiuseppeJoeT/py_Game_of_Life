@@ -1,8 +1,9 @@
 import unittest
 
-from game_of_life import test
+from game_of_life import *
 
 class test_game_of_life(unittest.TestCase):
 
-    def test_is_this_thing_on:
+    def test_a_sigle_cell_dies(self):
+        self.assertEquals(next([(0,0)]), [])
 
