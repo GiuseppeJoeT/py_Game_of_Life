@@ -13,3 +13,5 @@ on the following criteria:
 - A cell carries on living if it has two or three live neighbours
 
 These simple rules can produce complicated and unexpected ecosystems.
+
+*** Work in progress *** 
