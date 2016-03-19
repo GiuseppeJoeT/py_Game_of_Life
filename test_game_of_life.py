@@ -7,3 +7,6 @@ class test_game_of_life(unittest.TestCase):
     def test_a_sigle_cell_dies(self):
         self.assertEquals(next([(0,0)]), [])
 
+    def test_a_single_cell_dies(self):
+        self.assertEquals(next([0,0]), [])
+
